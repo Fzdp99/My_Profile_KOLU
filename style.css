@@ -1,0 +1,79 @@
+body{
+    background-color: orange;
+    font-family: 'Poppins';
+}
+.container{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    background-color: white;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.444);
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.navbar .colom-kanan{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display: flex;
+}
+.content .colom-kanan{
+    width: 50%;
+}
+.content .colom-kanan .card{
+    padding-right: 50px;
+}
+.content .colom-kanan .card p{
+    color: gray;
+}
+.content .colom-kanan .card ul li{
+    color: gray;
+}
+.content .colom-kanan .card .sosmed{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.content .colom-kanan .card .sosmed img{
+    width: 50px;
+    cursor: pointer;
+}
+
+/* ====================================================== */
+
+.content .colom-kiri{
+    width: 50%;
+}
+.content .colom-kiri .card{
+    padding-left: 50px;
+}
+.content .colom-kiri img{
+    width: 90%;
+    height: 350px;
+    object-fit: cover;
+}
+.content .colom-kiri .card .botom{
+    width: 90%;
+    display: flex;
+}
+.content .colom-kiri .card .botom .colom-kiri{
+    width: 70%;
+    height: 50px;
+    background-color: black;
+}
+.content .colom-kiri .card .botom .colom-kanan{
+    width: 30%;
+    background-color: orange;
+}
